@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vice City Trophy Atlas — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: cited step-by-step guides, a roadmap to the platinum, the one missable trophy, and a saved checklist.">
+<meta name="theme-color" content="#0c0a14">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Grand Theft Auto VI &middot; PlayStation 5 &middot; Unofficial fan guide</p>
+    <h1>VICE CITY <span>TROPHY ATLAS</span></h1>
+    <p class="lede">Every one of the 55 trophies, with a cited step-by-step guide, a roadmap to the
+      platinum, the single missable trophy flagged in red, and a checklist that saves
+      itself in your browser. No account, no network, no Rockstar artwork.</p>
+    <div class="stat-row" id="statRow" aria-label="Trophy totals">
+      <div class="stat"><strong id="statTotal">55</strong><span>trophies</span></div>
+      <div class="stat plat"><strong>1</strong><span>platinum</span></div>
+      <div class="stat gold"><strong>2</strong><span>gold</span></div>
+      <div class="stat silver"><strong>6</strong><span>silver</span></div>
+      <div class="stat bronze"><strong>46</strong><span>bronze</span></div>
+      <div class="stat"><strong>~200 h</strong><span>to platinum</span></div>
+      <div class="stat warn"><strong>1</strong><span>missable</span></div>
+      <div class="stat"><strong>4/10</strong><span>difficulty</span></div>
+    </div>
+    <div class="progress-wrap" aria-label="Checklist progress">
+      <div class="progress-head">
+        <span id="progressLabel">0 of 55 earned &middot; 0%</span>
+        <span id="progressNext">Next up: the Chapter 1 balcony meditation</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    </div>
+  </div>
+</header>
+
+<nav class="toolbar" aria-label="Find and filter trophies">
+  <div class="toolbar-inner">
+    <label class="search-box">
+      <span class="visually-hidden">Search trophies</span>
+      <input id="searchInput" type="search" placeholder="Search by name, mission, or keyword&hellip; (try &ldquo;bank&rdquo;, &ldquo;meditate&rdquo;, &ldquo;UFO&rdquo;)" autocomplete="off">
+    </label>
+    <div class="chip-group" id="tierChips" role="group" aria-label="Filter by grade">
+      <button class="chip active" data-tier="all" type="button">All grades</button>
+      <button class="chip" data-tier="platinum" type="button">Platinum</button>
+      <button class="chip" data-tier="gold" type="button">Gold</button>
+      <button class="chip" data-tier="silver" type="button">Silver</button>
+      <button class="chip" data-tier="bronze" type="button">Bronze</button>
+    </div>
+    <div class="chip-group" id="kindChips" role="group" aria-label="Filter by kind">
+      <button class="chip active" data-kind="all" type="button">All kinds</button>
+      <button class="chip" data-kind="story" type="button">Story</button>
+      <button class="chip" data-kind="side" type="button">Side quests</button>
+      <button class="chip" data-kind="collectible" type="button">Collectibles</button>
+      <button class="chip" data-kind="activity" type="button">Activities</button>
+      <button class="chip" data-kind="robbery" type="button">Robberies</button>
+      <button class="chip" data-kind="economy" type="button">Money</button>
+      <button class="chip" data-kind="misc" type="button">One-offs</button>
+      <button class="chip" data-kind="missable" type="button">Missable</button>
+    </div>
+    <div class="toolbar-row">
+      <div class="chip-group" id="earnedChips" role="group" aria-label="Filter by earned state">
+        <button class="chip active" data-earned="all" type="button">Show all</button>
+        <button class="chip" data-earned="earned" type="button">Earned only</button>
+        <button class="chip" data-earned="todo" type="button">Not earned yet</button>
+      </div>
+      <label class="toggle"><input id="spoilerToggle" type="checkbox"> <span>Hide story spoilers until earned</span></label>
+      <div class="tool-buttons">
+        <button id="exportBtn" type="button">Export progress</button>
+        <button id="importBtn" type="button">Import progress</button>
+        <input id="importFile" type="file" accept="application/json,.json" hidden>
+        <button id="resetBtn" type="button" class="danger">Reset checklist</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="roadmap" id="roadmap" aria-labelledby="roadmapTitle">
+    <h2 id="roadmapTitle">Roadmap to the platinum</h2>
+    <p class="section-lede">One playthrough is enough. There are no online trophies, no difficulty
+      setting, and no mission gold medals. Keep cheats off for the whole run: a cheat
+      disables trophies and saving. Rotate manual saves at the start and end of each
+      chapter (15 manual slots plus 1 autosave) because there is no mission replay.</p>
+    <ol class="steps">
+      <li>
+        <h3><span class="step-no">1</span> Finish the story &middot; 60&ndash;80 hours</h3>
+        <p>Play the five chapters in order and do the side questlines as they are marked:
+          Kenton&rsquo;s treasure dives, Billy&rsquo;s Mud Club jobs, Andy&rsquo;s Cellerica line for
+          Lucia, Randy&rsquo;s sports-car wishlist, Tyrone&rsquo;s lab raids for Jason, Bret&rsquo;s
+          hunts. Scan every new vehicle with the WAiNK app and study every new animal
+          through binoculars as you go; both counters feed the 100% checklist later.</p>
+        <p class="step-flag"><strong>Do this in Chapter 1 or never:</strong> after the mission
+          Down to Earth, talk to Lucia in the kitchen in the morning, follow her to the
+          balcony, and choose Accept when she offers to teach you to meditate. It is the
+          only missable-adjacent moment in the game.</p>
+      </li>
+      <li>
+        <h3><span class="step-no">2</span> The 100% checklist &middot; ~100 hours</h3>
+        <p>After the credits, the checklist appears under Progress &gt; Stats &gt; 100%
+          Completion. It is lenient &mdash; closer to 60% true completion: any 100 optional
+          missions, 200 of 277 vehicles, 100 of 255 animals, 300 of 397 stunts, 15 of 18
+          meditations, any 70 of 80 challenges. Only robberies, underwater discoveries,
+          shooting ranges, drone races, and Bret&rsquo;s quests demand everything. Nothing on
+          the list is missable; all of it is doable in free-roam.</p>
+      </li>
+      <li>
+        <h3><span class="step-no">3</span> Strangers &amp; cleanup &middot; ~10 hours</h3>
+        <p>Finish the 8 Strangers &amp; Freaks strands (Kirk, Kyle, Yago, Pilot Pete and more),
+          then sweep the one-off trophies: the Ocean View Martini, the blue Banshee
+          showroom smash, the Starlet Motel UFO, the VCIA plane theft, and the Mile Zero
+          tank. Two trophies are still unconfirmed at launch (Bad Luck, I Guess and Ten
+          Pin); their entries say so plainly and give the best lead instead of guessing.</p>
+      </li>
+    </ol>
+    <div class="chapter-strip" aria-label="Story chapter order">
+      <span>Chapter 1</span><i>&rarr;</i><span>Chapter 2</span><i>&rarr;</i>
+      <span>Chapter 3</span><i>&rarr;</i><span>Chapter 4</span><i>&rarr;</i>
+      <span>Finale</span><i>&rarr;</i><span class="plat-text">Platinum</span>
+    </div>
+  </section>
+
+  <section class="missable-wall" id="missable" aria-labelledby="missableTitle">
+    <h2 id="missableTitle">The missable wall</h2>
+    <p class="section-lede">Verified against PowerPyx and GTABase at launch: there is exactly
+      <strong>one</strong> trophy that can be threatened by story progress. Everything else
+      can be earned in free-roam after the credits. Protect this one and the platinum
+      can never be locked out.</p>
+    <div id="missableList" class="missable-list"></div>
+  </section>
+
+  <section class="list-section" id="list" aria-labelledby="listTitle">
+    <h2 id="listTitle">All 55 trophies</h2>
+    <p class="section-lede" id="listCount" aria-live="polite">Showing 55 of 55 trophies. Tick a trophy when
+      you earn it; your checklist is saved in this browser. Open any card to read its
+      cited step-by-step guide.</p>
+    <div id="trophyList" class="trophy-list"></div>
+    <p class="empty-note" id="emptyNote" hidden>No trophies match these filters. Clear the
+      search or pick a different filter.</p>
+  </section>
+
+  <section class="sources-note" aria-labelledby="sourcesTitle">
+    <h2 id="sourcesTitle">Sources &amp; honesty notes</h2>
+    <p>Every guide in this atlas is written in our own words for this entry, and every
+      trophy names its sources beside the guide: <strong>PowerPyx</strong> (GTA 6 Trophy
+      Guide &amp; Roadmap) and <strong>GTABase</strong> (GTA 6 Trophy List) first, with the
+      trophy names, descriptions, and grades cross-checked against
+      <strong>PSNProfiles</strong> and <strong>KeenGamer</strong> listings of the same 55.
+      A cited guide beats an uncited one, however detailed &mdash; so where the sources
+      disagree or stay silent, this atlas says so instead of guessing. Two trophies,
+      Bad Luck, I Guess and Ten Pin, have no confirmed unlock method at launch; their
+      entries state that plainly and give the best lead. Three more were confirmed on
+      launch day (In The Beginning&hellip;, Capital Offense, The Truth Is Out There) and
+      are marked RESOLVED. This is an unofficial fan guide. It contains no Rockstar
+      Games logo, artwork, or game screenshots, and it fetches nothing from the network:
+      it runs entirely from its own files.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Vice City Trophy Atlas &middot; GTA VI trophy guide &amp; tracker &middot; 55 trophies,
+    1 platinum, 2 gold, 6 silver, 46 bronze &middot; works offline.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
